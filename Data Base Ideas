@@ -1,0 +1,18 @@
+DATABASE Courses
+-> TABLE Course (GEN)
+    => Course Name
+    => Teachers (all branches)
+    => Course Code
+    => Programmes (B.Tech, etc)
+    => Description
+    => Books
+    
+-> TABLE Course (SPFC)
+    => Branch
+    => Teachers/s
+    => Room
+    => Time
+    => Description
+    
+DATABASE Students
+->
