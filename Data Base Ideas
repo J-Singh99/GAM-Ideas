@@ -1,8 +1,11 @@
+####____MAKE GLOBAL BRANCH + YSE____#####
+
 DATABASE Courses
 -> TABLE Course (GEN)
     => Course Name
     => Teachers (all branches)
     => Course Code
+    => Credits
     => Programmes (B.Tech, etc)
     => Description
     => Books
@@ -14,5 +17,53 @@ DATABASE Courses
     => Time
     => Description
     
+    
+    
 DATABASE Students
--> TABLE  
+-> TABLE Branch (+YSE)
+    => SID
+    => Name
+    => D.O.B
+    => Gender
+    => Address
+    => Phone
+    => E-Mail
+    => Programme
+    
+
+DATABASE Scores
+-> TABLE Course + Branch (+YSE)
+    => SID
+    => Name
+    => Quizes
+    => Projects
+    .
+    .
+    => Final Grade
+    
+    
+DATABASE Attendance (Students)
+-> TABLE Branch (+YSE)
+    => Course
+    => SID
+    => Name
+    => Present
+    => Absent
+    => Total
+    
+    
+DATABASE Time Tables (Students)
+-> Table Branch (+YSE)
+    => Day
+    => Time (Fille w/ course names)
+    .
+    .
+    
+    
+    
+*********************************************** HOME PAGE DESIGN IDEAS ***********************************************
+
+
+
+
+Attendance, TT, Subjects, Moodlish (FIGURE OUT BEFORE BEGINING), Fee, Notices + Announcements (class+college), Chat
